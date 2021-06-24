@@ -1,0 +1,18 @@
+.form-element {
+  margin: 40px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #6d6b58;
+}
+
+input,
+textarea {
+  color: #6d6b58;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+#textarea {
+  display: flex;
+  justify-content: space-evenly;
+}

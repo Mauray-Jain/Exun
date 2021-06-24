@@ -1,0 +1,36 @@
+.input {
+  margin: 20px 0px;
+  font-size: 1.1rem;
+}
+
+.input label {
+  margin: 3px 0px;
+  letter-spacing: 1px;
+  display: block;
+}
+
+input {
+  margin: 7px 0;
+  width: 90%;
+  padding: 10px 10px;
+  font-size: 0.9rem;
+  border: 2px solid #b7b7ae;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button[type="submit"] {
+  border: 2px solid #b7b7ae;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: block;
+  height: 40px;
+  width: 100px;
+  margin: 7px auto;
+  background-color: #fff;
+}
+
+input:focus,
+input:active {
+  border: 2px solid #2977f5;
+}

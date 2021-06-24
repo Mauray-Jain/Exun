@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div id="logo"><img src="logo.jpg" alt="" /></div>
+        <!--The image has been taken fron the internet-->
+        <div id="links">
+          <a href="#">About</a>
+          <a href="/" target="_self">Apply for Job</a>
+        </div>
+      </nav>
+    </header>
+    <form>
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" />
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="johndoe@gmail.com"
+        />
+      </div>
+      <div class="input-group">
+        <label for="year-of-graduation">Year of Graduation</label>
+        <input
+          type="number"
+          name="year-of-graduation"
+          id="year-of-graduation"
+          placeholder="2000"
+        />
+      </div>
+      <div class="input-group">
+        <label for="reason">Why do you want to work with us?</label>
+        <textarea name="reason" id="reason" cols="75" rows="7"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="experience"
+          >Do you have any relevant experience? If yes, please describe
+          it.</label
+        >
+        <textarea
+          name="experience"
+          id="experience"
+          cols="75"
+          rows="7"
+        ></textarea>
+      </div>
+      <div class="input-group">
+        <label for="department">Department</label>
+        <select name="department" id="department">
+          <option value="" selected id="default">Select Your Department</option>
+          <option value="engineering">Engineering</option>
+          <option value="sales">Sales</option>
+          <option value="marketing">Marketing</option>
+          <option value="administration">Administration</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <input type="submit" value="submit" id="submit" />
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

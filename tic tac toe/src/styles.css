@@ -1,0 +1,25 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+li {
+  margin: 2px;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
